@@ -15,9 +15,9 @@ def main():
     elif symbol == "-":
         print(subtract(a,b))
     elif symbol == "*":
-            print(multiply(a,b))
+        print(multiply(a,b))
     elif symbol == "/":
-            print(divide(a,b))
+        print(divide(a,b))
     else:
         print("Неверно выбрана математическая операция (поддерживается: +,-,*./). Попробуйте снова.")
     
