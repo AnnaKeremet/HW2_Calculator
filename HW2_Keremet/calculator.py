@@ -4,9 +4,8 @@ def addition(a,b):
     return a+b
 def divide(a,b):
     if b == 0:
-        print("Деление на 0!")
-    else:
-        return a/b
+        return "Деление на 0!"
+    return a/b
 def main():
     equation=input('ВВЕДИТЕ: ').split()
     a=float(equation[0])
