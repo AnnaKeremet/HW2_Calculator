@@ -1,3 +1,5 @@
+def divide(a,b):
+    return a/b
 def main():
     equation=input('ВВЕДИТЕ: ').split()
     a=float(equation[0])
