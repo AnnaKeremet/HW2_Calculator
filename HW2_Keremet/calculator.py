@@ -4,7 +4,7 @@ def main():
     b=float(equation[2])
     symbol=equation[1]
     if symbol == "+":
-        print(add(a,b))
+        print(addition(a,b))
     elif symbol == "-":
         print(subtract(a,b))
     elif symbol == "*":
